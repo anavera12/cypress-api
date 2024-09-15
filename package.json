@@ -1,0 +1,24 @@
+{
+    "name": "projects",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"  && exit 1",
+        "cypress": "cypress open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "cypress": "^13.13.0",
+        "cypress-wait-until": "^3.0.2",
+        "dotenv": "^16.4.5",
+        "faker": "^5.5.3",
+        "faker-br": "^0.4.1"
+    },
+    "devDependencies": {
+        "cypress-file-upload": "^5.0.8"
+    }
+}
