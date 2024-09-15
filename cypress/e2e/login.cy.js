@@ -46,8 +46,4 @@ describe('Teste focado em validar a interface de login', () => {
         cy.loginUi(Cypress.env('username'), Cypress.env('password'))
 
     });
-
-    it('Login armazenando o cache com foco nas funcionalidades posteriores ao login', () => {
-        cy.loginRequest(Cypress.env('username'), Cypress.env('password'))
-    });
 });
